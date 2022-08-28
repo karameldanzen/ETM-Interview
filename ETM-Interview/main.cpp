@@ -102,6 +102,10 @@ int main()
     {
         std::cout << "Enter filename: ";
         std::getline(std::cin, fileName);
+        if (fileName == "exit")
+        {
+            return 0;
+        }
         fileStream.open(fileName);
         if (!fileStream.is_open()) // file provided is invalid
         {
