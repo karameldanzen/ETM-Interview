@@ -5,5 +5,5 @@ cmake_minimum_required (VERSION 3.8)
 
 project ("ETM-Interview")
 
-add_executable(Main main.cpp)
-set_property(TARGET Main PROPERTY CXX_STANDARD 23)
+add_executable(main main.cpp)
+set_property(TARGET main PROPERTY CXX_STANDARD 23)
