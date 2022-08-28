@@ -1,4 +1,10 @@
-﻿// ETM-Interview.cpp : Defines the entry point for the application.
+﻿/* Given an arbitrary text document written in English, write a program that will generate a
+ * concordance, i.e. an alphabetical list of all word occurrences, labeled with word
+ * frequencies.
+ *
+ * Bonus: label each word with the sentence numbers in which each occurrence appeared.
+ * 
+ */
 
 #include "main.h"
 
@@ -22,7 +28,6 @@ std::string removeNonAlphabetOrPeriod(std::string s)
 }
 
 // given a valid filestream, parse it into a concordance map.
-// a concordance map is a map where a given word is a 
 void parseIntoMap(std::fstream& f)
 {
     std::map<std::string, std::pair<int, std::vector<int>>> concordanceMap;
