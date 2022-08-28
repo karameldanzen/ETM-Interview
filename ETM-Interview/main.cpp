@@ -1,6 +1,6 @@
 ﻿// ETM-Interview.cpp : Defines the entry point for the application.
 
-#include "Main.h"
+#include "mn.h"
 
 // helper function that returns the opposite of isalpha.
 bool isNotAlphaOrPeriod(char c) {
