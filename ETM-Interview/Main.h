@@ -1,0 +1,11 @@
+#pragma once
+#include <algorithm>
+#include <cctype>
+#include <fstream>
+#include <functional>
+#include <filesystem>
+#include <iostream>
+#include <map>
+#include <set>
+#include <string>
+#include <vector>
